@@ -3,41 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Nguyễn Thành Đạt</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Nguyễn Thành Đạt - CV</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .info h1 {
+            margin: 0;
+            color: #333;
+        }
+        .position {
+            color: #777;
+            font-size: 18px;
+        }
+        .contact p {
+            margin: 5px 0;
+        }
+        .contact a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 5px;
+            color: #007BFF;
+        }
+        .section h3 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <header>
-            <img src="avatar.jpg" alt="Ảnh đại diện" class="avatar">
-            <h1>Nguyễn Thành Đạt</h1>
-            <p>Thực tập sinh phát triển phần mềm</p>
-        </header>
+        <div class="header">
+            <img src="avatar.png" alt="Ảnh đại diện" class="avatar">
+            <div class="info">
+                <h1>NGUYỄN THÀNH ĐẠT</h1>
+                <p class="position">Thực tập sinh phát triển phần mềm</p>
+                <div class="contact">
+                    <p>📞 0358943178</p>
+                    <p>✉️ <a href="mailto:luudaththakd@mail.com">luudaththakd@mail.com</a></p>
+                    <p>📍 Quận 10, TP.HCM</p>
+                    <p>🌐 <a href="https://www.fb/thanhdat.com">www.fb/thanhdat.com</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>MỤC TIÊU NGHỀ NGHIỆP</h2>
+            <p>- Tích lũy kỹ năng lập trình web, ứng dụng .NET.</p>
+            <p>- Trở thành lập trình viên chuyên nghiệp.</p>
+        </div>
 
-        <section class="contact">
-            <h2>Liên Hệ</h2>
-            <p>📞 0358943178</p>
-            <p>📧 <a href="mailto:luudathhakd@mail.com">luudathhakd@mail.com</a></p>
-            <p>📍 Quận 10, TP.HCM</p>
-            <p>🌐 <a href="https://www.fb.com/thanhdat" target="_blank">fb.com/thanhdat</a></p>
-        </section>
+        <div class="section">
+            <h2>KINH NGHIỆM</h2>
+            <h3>Thư viện trực tuyến (2023-2024)</h3>
+            <p>- Công nghệ: HTML, CSS, JavaScript, ASP.NET Core, Entity Framework Core.</p>
+            <p>- Giải quyết bài toán quản lý dữ liệu hiệu quả.</p>
 
-        <section class="career-goal">
-            <h2>Mục Tiêu Nghề Nghiệp</h2>
-            <p><strong>Ngắn hạn (2023-2024):</strong> Tích lũy kỹ năng lập trình web, ứng dụng .NET.</p>
-            <p><strong>Dài hạn:</strong> Trở thành lập trình viên chuyên nghiệp.</p>
-        </section>
-
-        <section class="experience">
-            <h2>Kinh Nghiệm</h2>
-            <h3>📌 Dự án cá nhân: Thư viện trực tuyến (2023-2024)</h3>
-            <p><strong>Công nghệ:</strong> HTML, CSS, JavaScript, ASP.NET Core, Entity Framework Core.</p>
-            <p>Giải quyết bài toán mượn trả sách online, giúp thư viện quản lý dữ liệu tốt hơn.</p>
-
-            <h3>📌 Dự án nhóm: Hệ thống đặt lịch khám bệnh (2023-2024)</h3>
-            <p><strong>Công nghệ:</strong> ASP.NET Core, Entity Framework.</p>
-            <p>Hỗ trợ bệnh nhân đặt lịch khám, tránh tình trạng quá tải.</p>
-        </section>
+            <h3>Hệ thống đặt lịch khám bệnh (2023-2024)</h3>
+            <p>- Công nghệ: ASP.NET Core, Entity Framework.</p>
+            <p>- Hỗ trợ bệnh nhân đặt lịch khám, theo dõi trạng thái.</p>
+        </div>
     </div>
 </body>
 </html>
